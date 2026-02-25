@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fjalla_One, Actor } from "next/font/google";
 import "./globals.css";
 import TopNavbar from "./components/TopNavbar";
+import BottomFooter from "./components/BottomFooter";
 
  const fjalla = Fjalla_One({
    variable: "--font-fjalla-title",
@@ -40,6 +41,7 @@ export default function RootLayout({
       >
         <TopNavbar/>
         {children}
+        <BottomFooter/>
       </body>
     </html>
   );

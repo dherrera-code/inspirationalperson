@@ -1,12 +1,20 @@
 "use client"
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
-
+import { useState } from "react";
 
 const TopNavbar = () => {
 
-    //Need to insert logic to implement a hover effectt
+    const currentPath = usePathname();
 
+    // const isActive = (path) => {
+    //     return currentPath === path;
+    // }
+    //Need to insert logic to implement a hover effect
+    // const [currentPage, setCurrentPage] = useState("Home")
+
+    // const onPageChange = () => setCurrentPage(page);
 
     return (
         <header>
