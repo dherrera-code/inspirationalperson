@@ -42,4 +42,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     Implement active effect to show which page is currently active,
     fix dropdown to have bg color as navbar and not clear!
 ### Footer 
-    Adjust footer to have contact only and remove the logo
+    Adjust footer to have contact only and remove the logo (Complete!)
+
+### About Page
+    Adjust the size of the cards to create consistency with sizes!
+

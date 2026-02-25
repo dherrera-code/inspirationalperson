@@ -6,12 +6,13 @@ const BottomFooter = () => {
     <Footer container>
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
-          <FooterBrand
+          {/* <FooterBrand
             href="https://flowbite.com"
             src="https://flowbite.com/docs/images/logo.svg"
             alt="A Life that Inspires title"
             name="A Life that Inspires"
-          />
+          /> */}
+          <h1 className='font-title text-[26px]'>A Life That Inspired Mine</h1>
           <FooterLinkGroup>
             <FooterLink href="#">About</FooterLink>
             {/* <FooterLink href="#">Privacy Policy</FooterLink>
