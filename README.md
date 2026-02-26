@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     fix dropdown to have bg color as navbar and not clear! (complete)
 ### Footer 
     Adjust footer to have contact only and remove the logo (Complete!)
-    Change the footer's background color!
+    Change the footer's background color! (complete)
 
 ### About Page
     Adjust the size of the cards to create consistency with sizes!

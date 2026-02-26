@@ -3,8 +3,8 @@ import React from 'react'
 
 const BottomFooter = () => {
   return (
-    <Footer container>
-      <div className="w-full text-center">
+    <Footer container className='rounded-none dark:bg-[#9CA3AF]'>
+      <div className="w-full text-center ">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           {/* <FooterBrand
             href="https://flowbite.com"
@@ -14,14 +14,14 @@ const BottomFooter = () => {
           /> */}
           <h1 className='font-title text-[26px]'>A Life That Inspired Mine</h1>
           <FooterLinkGroup>
-            <FooterLink href="/pages/about">About</FooterLink>
+            <FooterLink className='font-actor md:me-2 text-[20px]' href="/pages/about">About</FooterLink>
             {/* <FooterLink href="#">Privacy Policy</FooterLink>
             <FooterLink href="#">Licensing</FooterLink> */}
-            <FooterLink href="/pages/contact">Contact</FooterLink>
+            <FooterLink className='font-actor md:me-2 text-[20px]' href="/pages/contact">Contact</FooterLink>
           </FooterLinkGroup>
         </div>
         <FooterDivider />
-        <FooterCopyright href="#" by="Daniel Herrera™" year={2026} />
+        <FooterCopyright className='dark:text-white' href="#" by="Daniel Herrera™" year={2026} />
       </div>
     </Footer>
   )
