@@ -8,7 +8,7 @@ export default function Home() {
         {/* Hero Image */}
         <div className="bg-[url(/assets/hero-bg.jpg)] h-[410px] bg-center"></div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-5 py-15 px-4 sm:px-[200px]">
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-5 py-15 px-4 md:px-[150px] lg:px-[200px]">
             <div>
                   <h1 className="font-title text-[40px] pb-5">Vanessa Bravo</h1>
                   <p>Vanessa is my adorable and successful little sister who in her actions motivates and inspires me to work hard to better my life and to those around me! </p>
