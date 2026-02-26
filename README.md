@@ -20,4 +20,5 @@ https://salmon-forest-0e150bd1e.6.azurestaticapps.net/
 ### About Page
     Adjust the size of the cards to create consistency with sizes! (complete)
 
-### Peer Review () : 
+### Peer Review () : Pallavi Pattanashetti
+Your website is really awesome! When family becomes influential in our success, nothing is impossible. I really like the layout and design.Code looks good.  The only suggestion I have is about the navigation links — they keep switching when we change pages, which can be a little confusing. Other than that, great job!
