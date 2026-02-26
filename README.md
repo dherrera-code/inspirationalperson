@@ -1,24 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Daniel Herrera
 
-## Getting Started
+## February 26, 2026
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Influential Person Website
 
 ## Link to Hosted Build
 
-    https://salmon-forest-0e150bd1e.6.azurestaticapps.net/
+https://salmon-forest-0e150bd1e.6.azurestaticapps.net/
 
 ## Notes for current project!
 
@@ -30,5 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     Change the footer's background color! (complete)
 
 ### About Page
-    Adjust the size of the cards to create consistency with sizes!
+    Adjust the size of the cards to create consistency with sizes! (complete)
 
+### Peer Review () : 
