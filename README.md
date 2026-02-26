@@ -23,10 +23,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Notes for current project!
 
 ### Navbar
-    Implement active effect to show which page is currently active,
-    fix dropdown to have bg color as navbar and not clear!
+    Implement active effect to show which page is currently active, (complete)
+    fix dropdown to have bg color as navbar and not clear! (complete)
 ### Footer 
     Adjust footer to have contact only and remove the logo (Complete!)
+    Change the footer's background color!
 
 ### About Page
     Adjust the size of the cards to create consistency with sizes!
