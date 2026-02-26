@@ -1,20 +1,21 @@
 "use client"
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
-import { useState } from "react";
 
 const TopNavbar = () => {
-
     const currentPath = usePathname();
+    const pages = [
+        { name: "Home", path: "/"},
+        { name: "About", path: "/pages/about"},
+        { name: "Personal Impact", path: "/pages/why"},
+        { name: "Contact Me", path: "/pages/contact"},
+    ];
 
-    // const isActive = (path) => {
-    //     return currentPath === path;
-    // }
-    //Need to insert logic to implement a hover effect
-    // const [currentPage, setCurrentPage] = useState("Home")
+    const isActive = (path: string) => {
+        return currentPath === path;
+    }
 
-    // const onPageChange = () => setCurrentPage(page);
+    // console.log(currentPath);
 
     return (
         <header>
@@ -24,10 +25,16 @@ const TopNavbar = () => {
                 </NavbarBrand>
                 <NavbarToggle />
                 <NavbarCollapse>
-                    <NavbarLink className="md:me-2 font-actor" href="/" active>Home</NavbarLink>
+
+                    {pages.map((page, index) => (
+                        <NavbarLink key={index} className={isActive(page.path) ? 'active md:me-2 font-actor' : "md:me-2 font-actor"} href={page.path} >{page.name}</NavbarLink>
+                    ))}
+
+                    {/* <NavbarLink className="md:me-2 font-actor" href="/">Home</NavbarLink>
                     <NavbarLink className="md:me-2 font-actor" href="/pages/about/">About</NavbarLink>
                     <NavbarLink className="md:me-2 font-actor" href="/pages/why">Personal Impact</NavbarLink>
-                    <NavbarLink className="md:me-2 font-actor" href="/pages/contact">Contact Me</NavbarLink>
+                    <NavbarLink className="md:me-2 font-actor" href="/pages/contact">Contact Me</NavbarLink> */}
+
                 </NavbarCollapse>
             </Navbar>
         </header>

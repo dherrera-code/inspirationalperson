@@ -14,10 +14,10 @@ const BottomFooter = () => {
           /> */}
           <h1 className='font-title text-[26px]'>A Life That Inspired Mine</h1>
           <FooterLinkGroup>
-            <FooterLink href="#">About</FooterLink>
+            <FooterLink href="/pages/about">About</FooterLink>
             {/* <FooterLink href="#">Privacy Policy</FooterLink>
             <FooterLink href="#">Licensing</FooterLink> */}
-            <FooterLink href="#">Contact</FooterLink>
+            <FooterLink href="/pages/contact">Contact</FooterLink>
           </FooterLinkGroup>
         </div>
         <FooterDivider />
