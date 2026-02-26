@@ -4,10 +4,8 @@ const Why = () => {
   return (
     <div className='min-h-screen bg-zinc-50 font-actor px-4 sm:px-20 text-black'>
       <h1 className='text-[40px] py-8 text-center font-title'>Personal Impact</h1>
-
       <article className='grid grid-cols-1 lg:grid-cols-[360px_1fr] gap-5 pb-6'>
         <div className='place-items-center'>
-
         <img className='h-[430px] rounded-lg ' src="/assets/winnerVaneOriginal.jpg" alt="Vanessa winning racing game against awesome brother!" />
         </div>
         {/* this div will have title and text with card background */}
