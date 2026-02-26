@@ -31,4 +31,5 @@ body {
 
 .active {
   color: white;
+  font-weight: 400;
 }
