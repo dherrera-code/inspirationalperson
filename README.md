@@ -24,5 +24,6 @@ https://salmon-forest-0e150bd1e.6.azurestaticapps.net/
 Your website is really awesome! When family becomes influential in our success, nothing is impossible. I really like the layout and design.Code looks good.  The only suggestion I have is about the navigation links — they keep switching when we change pages, which can be a little confusing. Other than that, great job!
 
 ## Notes from Peer Review:
- # Change function from mapping navigation link to be hard coded! (complete)!
+ ### Change function from mapping navigation link to be hard coded! (complete)!
+ 
  
