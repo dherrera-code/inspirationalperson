@@ -1,6 +1,5 @@
 import { Footer, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from 'flowbite-react'
 
-
 const BottomFooter = () => {
   return (
     <Footer container className='rounded-none dark:bg-[#9CA3AF]'>

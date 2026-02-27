@@ -14,7 +14,6 @@ const About = () => {
       <section className="py-5">
         <h1 className='text-[40px] py-8 text-center font-title'>Fun Facts</h1>
           <CardFacts/>
-        
       </section>
     </div>
   )

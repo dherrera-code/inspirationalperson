@@ -1,5 +1,4 @@
 
-
 const cardArray = [
     { title: "Education", img: "/assets/lab-icon.png", desc: "Majoring in Biomedical Engineering in the University of California, Berkeley and currently working on her bachelors! Considering working on her masters and should!", alt: "An Icon representing medical engineering!" },
     { title: "UNO Champion", img: "/assets/uno-trophy.jpg", desc: "She is the current owner of the Uno Champion of the world trophy! Until next time we play!", alt: "The greatest uno trophy of all time!" },
