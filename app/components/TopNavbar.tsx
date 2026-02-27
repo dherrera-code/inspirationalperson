@@ -17,7 +17,7 @@ const TopNavbar = () => {
         <header>
             <Navbar fluid rounded className="py-6">
                 <NavbarBrand>
-                    <span className="self-center whitespace-nowrap text-[26px] font-title dark:text-white">A Life That Inspired Mine</span>
+                    <span className="self-center whitespace-nowrap text-[26px] font-title dark:text-white ps-1.5">A Life That Inspired Mine</span>
                 </NavbarBrand>
                 <NavbarToggle />
                 <NavbarCollapse>
@@ -25,10 +25,10 @@ const TopNavbar = () => {
                     {/* {pages.map((page, index) => (
                         <NavbarLink key={index} className={isActive(page.path) ? 'active md:me-2 font-actor text-[20px]' : "md:me-2 font-actor text-[20px]"} href={page.path} >{page.name}</NavbarLink>
                     ))} */} 
-                    <NavbarLink className={isActive("/") ? "active md:me-2 font-actor text-[20px]" : "md:me-2 font-actor text-[20px]"} href={pages[0].path}>{pages[0].name}</NavbarLink>
-                    <NavbarLink  className={isActive("/pages/about") ? "active md:me-2 font-actor text-[20px]" : "md:me-2 font-actor text-[20px]"} href={pages[1].path}>{pages[1].name}</NavbarLink>
-                    <NavbarLink  className={isActive("/pages/why") ? "active md:me-2 font-actor text-[20px]" : "md:me-2 font-actor text-[20px]"} href={pages[2].path}>{pages[2].name}</NavbarLink>
-                    <NavbarLink  className={isActive("/pages/contact") ? "active md:me-2 font-actor text-[20px]" : "md:me-2 font-actor text-[20px]"} href={pages[3].path}>{pages[3].name}</NavbarLink>
+                    <NavbarLink className={isActive("/") ? "active md:me-1.5 font-actor text-[20px]" : "md:me-1.5 font-actor text-[20px]"} href={pages[0].path}>{pages[0].name}</NavbarLink>
+                    <NavbarLink  className={isActive("/pages/about") ? "active md:me-1.5 font-actor text-[20px]" : "md:me-1.5 font-actor text-[20px]"} href={pages[1].path}>{pages[1].name}</NavbarLink>
+                    <NavbarLink  className={isActive("/pages/why") ? "active md:me-1.5 font-actor text-[20px]" : "md:me-1.5 font-actor text-[20px]"} href={pages[2].path}>{pages[2].name}</NavbarLink>
+                    <NavbarLink  className={isActive("/pages/contact") ? "active md:me-1.5 font-actor text-[20px]" : "md:me-1.5 font-actor text-[20px]"} href={pages[3].path}>{pages[3].name}</NavbarLink>
                 </NavbarCollapse>
             </Navbar>
         </header>
