@@ -12,7 +12,7 @@ const BottomFooter = () => {
           </FooterLinkGroup>
         </div>
         <FooterDivider />
-        <FooterCopyright className='dark:text-white' href="#" by="Daniel Herrera™" year={2026} />
+        <FooterCopyright className='dark:text-white' by="Daniel Herrera™" year={2026} />
       </div>
     </Footer>
   )
