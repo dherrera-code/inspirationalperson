@@ -1,4 +1,3 @@
-// import React from 'react'
 
 import CardFacts from "@/app/components/CardFacts"
 
@@ -11,7 +10,7 @@ const About = () => {
         <br />
         <p>Here are some fun facts about Vanessa I would like to share!</p>
       </article>
-
+      
       <section className="py-5">
         <h1 className='text-[40px] py-8 text-center font-title'>Fun Facts</h1>
 
@@ -22,7 +21,6 @@ const About = () => {
           <CardFacts title="Hard Working" img={"/assets/SefeBearLogo.jpg"} alt="The logo of Safe Bears for safe walks!" desc="While getting her education in a University, she is working with her community to provide a safe environments on university campus!"/>
         </div>
       </section>
-
     </div>
   )
 }
