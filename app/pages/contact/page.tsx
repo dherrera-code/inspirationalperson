@@ -8,8 +8,8 @@ const Contact = () => {
             <p >I am an aspiring developer who is looking for a successful and exciting career to support my family and my future. The reason I built this website is to show my friends and family that I am making progress towards my goal and I am motivated to succeed just like my awesome little sister!</p>
             <br />
             <p>If you need to contact me Here is my contact information: </p>
-            <p>Email: dherr929@gmail.com</p>
-            <p className='pb-5'>Phone number: (209) 561-4598</p>
+            <p>Email: dherr@gmail.com</p>
+            <p className='pb-5'>Phone number: (209) 345-1646</p>
             <img className='h-[270px] mx-auto' src="/assets/SelfeDaniel.jpg" alt="Self Image of Creator and Brother Daniel Herrera" />
         </div>
         </section>
